@@ -33,6 +33,7 @@ ActiveRecord::Schema.define(version: 20170701133509) do
     t.integer "slots"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "contact"
   end
 
   create_table "users", force: :cascade do |t|
