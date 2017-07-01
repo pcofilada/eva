@@ -15,6 +15,7 @@ gem 'turbolinks', '~> 5'
 gem 'facebook-messenger'
 gem 'figaro'
 gem 'geocoder'
+gem 'chikka'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
