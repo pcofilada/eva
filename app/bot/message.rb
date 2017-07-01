@@ -39,7 +39,15 @@ def render_parking_card(parking_lots)
         {
           type: 'web_url',
           url: 'http://facebook.com',
-          title: 'Go now'
+          title: 'Reserve now'
+        }, {
+          type: 'web_url',
+          url: 'http://facebook.com',
+          title: 'Check location'
+        }, {
+          type: 'phone_number',
+          title: 'Contact',
+          payload: '09178317286'
         }
       ]
     }

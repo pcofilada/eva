@@ -33,7 +33,7 @@ def get_started_question(sender_id)
         text: "I'll find you the nearest available parking space on your location. Just tap Send Location.",
         quick_replies: [
           {
-            content_type: 'location',
+            content_type: 'location'
           }
         ]
       }
