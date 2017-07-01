@@ -30,12 +30,10 @@ def get_started_question(sender_id)
     {
       recipient: { id: sender_id },
       message: {
-        text: "I'll find you the nearest available parking space on your location. Just let me know.",
+        text: "I'll find you the nearest available parking space on your location. Just tap Send Location.",
         quick_replies: [
           {
-            content_type: 'text',
-            title: 'Find me a parking',
-            payload: 'FIND_PARKING'
+            content_type: 'location',
           }
         ]
       }
