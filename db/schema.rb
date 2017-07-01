@@ -21,9 +21,8 @@ ActiveRecord::Schema.define(version: 20170701130133) do
     t.string "region"
     t.string "barangay"
     t.string "city"
-    t.float "latitude"
-    t.float "longtitude"
-    t.integer "max_vehicles"
+    t.string "lat"
+    t.string "long"
     t.integer "slots"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

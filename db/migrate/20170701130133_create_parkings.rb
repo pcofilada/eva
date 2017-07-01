@@ -6,9 +6,8 @@ class CreateParkings < ActiveRecord::Migration[5.1]
       t.string :region
       t.string :barangay
       t.string :city
-      t.float :latitude
-      t.float :longtitude
-      t.integer :max_vehicles
+      t.string :lat
+      t.string :long
       t.integer :slots
 
       t.timestamps
