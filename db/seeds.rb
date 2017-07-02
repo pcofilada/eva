@@ -1,10 +1,14 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+parking_lots = ActiveSupport::JSON.decode(File.read('db/parkings.json'))
 
-Parking.create(name: 'Antipolo parking', lat: 14.655112500000001, long: 121.1077880859375)
-Parking.create(name: 'Marikina Parking', lat: 14.649943, long: 121.103078)
+parking_lots.each do |parking|
+  Parking.create(
+    name: parking['name'],
+    address: parking['address'],
+    slots: parking['slots'],
+    contact: parking['contact'],
+    initial_rate: parking['initial_rate'],
+    succeeding_rate: parking['succeeding_rate'],
+    lat: parking['lat'],
+    long: parking['long']
+  )
+end

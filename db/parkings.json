@@ -1,0 +1,30 @@
+[
+  {
+    "name": "SEDDCO Parking Lot",
+    "address": "120Rada st Cor., Legazpi Street, Legazpi Village, Makati, Metro Manila",
+    "slots": 20,
+    "contact": "09178317286",
+    "initial_rate": 40,
+    "succeeding_rate": 50,
+    "lat": 14.554799,
+    "lng": 121.017746
+  }, {
+    "name": "Dela Rosa Car Park 1",
+    "address": "Dela Rosa Street, Legazpi Village, Makati, Kalakhang Maynila",
+    "slots": 30,
+    "contact": "09178317286",
+    "initial_rate": 50,
+    "succeeding_rate": 50,
+    "lat": 14.556650,
+    "lng": 121.019143
+  }, {
+    "name": "Dela Rosa Car Park 2",
+    "address": "Blk. 2 Dela Rosa Street, Legazpi Village, Makati, 1229 Kalakhang Maynila",
+    "slots": 20,
+    "contact": "09178317286",
+    "initial_rate": 50,
+    "succeeding_rate": 50,
+    "lat": 14.556760,
+    "lng": 121.019457
+  }
+]
