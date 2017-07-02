@@ -28,12 +28,11 @@ ActiveRecord::Schema.define(version: 20170701173448) do
     t.string "region"
     t.string "barangay"
     t.string "city"
-    t.string "lat"
-    t.string "long"
+    t.float "lat"
+    t.float "long"
     t.integer "slots"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string "contact"
     t.integer "initial_rate"
     t.integer "succeeding_rate"
   end
