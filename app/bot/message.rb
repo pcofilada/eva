@@ -45,8 +45,8 @@ def render_parking_card(parking_lots)
       subtitle: "P#{parking.initial_rate} first 3 hrs, P#{parking.succeeding_rate} succeeding hr",
       buttons: [
         {
-          type: 'web_url',
-          url: 'http://facebook.com',
+          type: 'postback',
+          payload: 'SEND_RECEIPT_PAYLOAD',
           title: 'Reserve now'
         }, {
           type: 'web_url',
