@@ -9,6 +9,6 @@ parking_lots.each do |parking|
     initial_rate: parking['initial_rate'],
     succeeding_rate: parking['succeeding_rate'],
     lat: parking['lat'],
-    long: parking['lng']
+    long: parking['long']
   )
 end
