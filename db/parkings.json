@@ -108,6 +108,65 @@
     "succeeding_rate": 50,
     "lat": 14.555814,
     "long": 121.022899
+  },
+  {
+    "name": "RCBC Plaza Parking Area",
+    "address": "RCBC Plaza Tower 2, 6819 Ayala Ave, Makati, Metro Manila",
+    "slots": 20,
+    "contact": "09178317286",
+    "initial_rate": 40,
+    "succeeding_rate": 50,
+    "lat": 14.561345,
+    "long": 121.016971
+  }, 
+  {
+    "name": "Paseo Center",
+    "address": "8757 Paseo de Roxas, Makati, Metro Manila",
+    "slots": 30,
+    "contact": "09152601996",
+    "initial_rate": 50,
+    "succeeding_rate": 50,
+    "lat": 14.557666,
+    "long": 121.022941
+  },
+  {
+    "name": "Jupiter Place",
+    "address": "Jupter Place, 136 - 138 Jupiter, Makati, 1209 Metro Manila",
+    "slots": 20,
+    "contact": "09152601996",
+    "initial_rate": 50,
+    "succeeding_rate": 50,
+    "lat": 14.561273,
+    "long": 121.029813
+  },
+  {
+    "name": "KMC Mag Group",
+    "address": " Rufino Pacific Tower, 6784 Ayala Ave, Legazpi Village, Makati, 1229 Metro",
+    "slots": 20,
+    "contact": "09152601996",
+    "initial_rate": 50,
+    "succeeding_rate": 50,
+    "lat": 14.558040,
+    "long": 121.018219
+  },
+  {
+    "name": "Park Square",
+    "address": "East St, Makati, Metro Manila",
+    "slots": 20,
+    "contact": "09178317286",
+    "initial_rate": 50,
+    "succeeding_rate": 50,
+    "lat": 14.549179,
+    "long": 121.025602
+  },
+  {
+    "name": "San Agustin College Covered Parking",
+    "address": "Colegio San Agustin Makati, Lumbang, Makati, Metro Manila",
+    "slots": 20,
+    "contact": "09178317286",
+    "initial_rate": 50,
+    "succeeding_rate": 50,
+    "lat": 14.542249,
+    "long": 121.025932
   }
-
 ]
