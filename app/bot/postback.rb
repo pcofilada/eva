@@ -19,7 +19,7 @@ def get_started_intro(sender_id)
         id: sender_id
       },
       message: {
-        text: "Hello I'm AVA! I'm your parking assistant."
+        text: "Hello I'm EVA! I'm your parking assistant."
       }
     }, access_token: ENV['ACCESS_TOKEN']
   )
@@ -30,7 +30,7 @@ def get_started_question(sender_id)
     {
       recipient: { id: sender_id },
       message: {
-        text: "I'll find you the nearest available parking space on your location. Just tap Send Location.",
+        text: "I'll find the nearest available parking space on your location. Just give me your location.",
         quick_replies: [
           {
             content_type: 'location'

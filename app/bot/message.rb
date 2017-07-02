@@ -4,13 +4,21 @@ Bot.on :message do |message|
     when 'location'
       find_parking_spaces(message)
     end
+  else
+    if message.text == 'Please find me a parking slot'
+      send_location(message.sender['id'])
+    else
+      general_response(message.sender['id'])
+    end
   end
 end
 
 private
 
 def find_parking_spaces(message)
-  parking_lots = (1..10).to_a
+  lat = message.attachments[0]['payload']['coordinates']['lat']
+  lng = message.attachments[0]['payload']['coordinates']['long']
+  parking_lots = Parking.by_distance(origin: [lat, lng]).limit(10)
 
   Bot.deliver(
     {
@@ -31,10 +39,10 @@ end
 def render_parking_card(parking_lots)
   rendered_parking_lots = []
 
-  parking_lots.each do |parking_lot|
+  parking_lots.each do |parking|
     rendered_parking_lots << {
-      title: 'SM Megamall',
-      subtitle: 'Your one stop parking lot.',
+      title: parking.name,
+      subtitle: "P#{parking.initial_rate} first 3 hrs, P#{parking.succeeding_rate} succeeding hr",
       buttons: [
         {
           type: 'web_url',
@@ -47,11 +55,43 @@ def render_parking_card(parking_lots)
         }, {
           type: 'phone_number',
           title: 'Contact',
-          payload: '09178317286'
+          payload: parking.contact
         }
       ]
     }
   end
 
   rendered_parking_lots
+end
+
+def send_location(sender_id)
+  Bot.deliver(
+    {
+      recipient: { id: sender_id },
+      message: {
+        text: "Ok I'll search the nearest available parking space near you. Just give me your location.",
+        quick_replies: [
+          {
+            content_type: 'location'
+          }
+        ]
+      }
+    }, access_token: ENV['ACCESS_TOKEN']
+  )
+end
+
+def general_response(sender_id)
+  Bot.deliver(
+    {
+      recipient: { id: sender_id },
+      message: {
+        text: "I don't know what are you talking about. Just give me your location and I'll search the nearest available parking space for you.",
+        quick_replies: [
+          {
+            content_type: 'location'
+          }
+        ]
+      }
+    }, access_token: ENV['ACCESS_TOKEN']
+  )
 end
