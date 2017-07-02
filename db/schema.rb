@@ -33,6 +33,7 @@ ActiveRecord::Schema.define(version: 20170701173448) do
     t.integer "slots"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "contact"
     t.integer "initial_rate"
     t.integer "succeeding_rate"
   end
