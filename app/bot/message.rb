@@ -50,7 +50,7 @@ def render_parking_card(parking_lots)
           title: 'Reserve now'
         }, {
           type: 'web_url',
-          url: 'http://facebook.com',
+          url: "https://maps.google.com/?q=#{parking.address}",
           title: 'Check location'
         }, {
           type: 'phone_number',
