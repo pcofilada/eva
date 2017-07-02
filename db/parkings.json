@@ -7,24 +7,107 @@
     "initial_rate": 40,
     "succeeding_rate": 50,
     "lat": 14.554799,
-    "lng": 121.017746
-  }, {
+    "long": 121.017746
+  },
+  {
     "name": "Dela Rosa Car Park 1",
     "address": "Dela Rosa Street, Legazpi Village, Makati, Kalakhang Maynila",
     "slots": 30,
-    "contact": "09178317286",
+    "contact": "09152601996",
     "initial_rate": 50,
     "succeeding_rate": 50,
     "lat": 14.556650,
-    "lng": 121.019143
-  }, {
+    "long": 121.019143
+  },
+  {
     "name": "Dela Rosa Car Park 2",
     "address": "Blk. 2 Dela Rosa Street, Legazpi Village, Makati, 1229 Kalakhang Maynila",
+    "slots": 20,
+    "contact": "09955676174",
+    "initial_rate": 50,
+    "succeeding_rate": 50,
+    "lat": 14.556760,
+    "long": 121.019457
+  },
+  {
+    "name": "Valero Parking Lot",
+    "address": "Valero, Makati, Kalakhang Maynila",
+    "slots": 20,
+    "contact": "0954594791",
+    "initial_rate": 50,
+    "succeeding_rate": 50,
+    "lat": 14.558375,
+    "long": 121.022123
+  },
+  {
+    "name": "Valero Car Park",
+    "address": "Valero, Maynila, Kalakhang Maynila" ,
+    "slots": 20,
+    "contact": "09152601996",
+    "initial_rate": 50,
+    "succeeding_rate": 50,
+    "lat": 14.558375,
+    "long": 121.022123
+  },
+  {
+    "name": "Riki Carreon Parking Lot",
+    "address": "8000 Makati Ave, Makati, 1200 Metro Manila" ,
+    "slots": 20,
+    "contact": "09955676174",
+    "initial_rate": 50,
+    "succeeding_rate": 50,
+    "lat": 14.560314,
+    "long": 121.029021
+  },
+  {
+    "name": "Salcedo Park Parking",
+    "address": "Toledo, Makati, Metro Manila" ,
+    "slots": 20,
+    "contact": "0954594791",
+    "initial_rate": 50,
+    "succeeding_rate": 50,
+    "lat": 14.560163,
+    "long": 121.023593
+  },
+  {
+    "name": "Convergys One Parking Lot",
+    "address": "Dela Rosa Access Rd 3, Legazpi Village, Makati, Metro Manila" ,
     "slots": 20,
     "contact": "09178317286",
     "initial_rate": 50,
     "succeeding_rate": 50,
-    "lat": 14.556760,
-    "lng": 121.019457
+    "lat": 14.558613,
+    "long": 121.017129
+  },
+  {
+    "name": "Best and Safe Parking",
+    "address": "Cruzada St, Makati, Metro Manila" ,
+    "slots": 20,
+    "contact": "(02) 330 3187",
+    "initial_rate": 50,
+    "succeeding_rate": 50,
+    "lat": 14.560212,
+    "long": 121.028458
+  },
+  {
+    "name": "Paseo Steel Car Park",
+    "address": "Paseo de Roxas, Makati, Metro Manila" ,
+    "slots": 20,
+    "contact": "09955676174",
+    "initial_rate": 50,
+    "succeeding_rate": 50,
+    "lat": 14.558130,
+    "long": 121.025677
+  },
+  {
+    "name": "Gabriela Silang Carpark",
+    "address": "Ayala Ave, Makati, Metro Manila" ,
+    "slots": 20,
+    "contact": "09178317286",
+    "initial_rate": 50,
+    "succeeding_rate": 50,
+    "lat": 14.555814,
+    "long": 121.022899
   }
+
 ]
