@@ -1,0 +1,48 @@
+[
+  {
+    "name": "RCBC Plaza Parking Area",
+    "address": "RCBC Plaza Tower 2, 6819 Ayala Ave, Makati, Metro Manila",
+    "slots": 20,
+    "contact": "09178317286",
+    "initial_rate": 40,
+    "succeeding_rate": 50,
+    "lat": 14.561345,
+    "lng": 121.016971
+  }, {
+    "name": "Paseo Center",
+    "address": "8757 Paseo de Roxas, Makati, Metro Manila",
+    "slots": 30,
+    "contact": "09178317286",
+    "initial_rate": 50,
+    "succeeding_rate": 50,
+    "lat": 14.557666,
+    "lng": 121.022941
+  }, {
+    "name": "Jupiter Place",
+    "address": "Jupter Place, 136 - 138 Jupiter, Makati, 1209 Metro Manila",
+    "slots": 20,
+    "contact": "09178317286",
+    "initial_rate": 50,
+    "succeeding_rate": 50,
+    "lat": 14.561273,
+    "lng": 121.029813
+  }, {
+    "name": "KMC Mag Group",
+    "address": " Rufino Pacific Tower, 6784 Ayala Ave, Legazpi Village, Makati, 1229 Metro",
+    "slots": 20,
+    "contact": "09178317286",
+    "initial_rate": 50,
+    "succeeding_rate": 50,
+    "lat": 14.558040,
+    "lng": 121.018219
+  }, {
+    "name": "28th East Open Car Park",
+    "address": "28th Street Along 9th Avenue and 11th Avenue. Bonifacio Global City, Taguig",
+    "slots": 20,
+    "contact": "09178317286",
+    "initial_rate": 50,
+    "succeeding_rate": 50,
+    "lat": 14.548610,
+    "lng": 121.052019
+  }
+]
